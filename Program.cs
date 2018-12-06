@@ -13,4 +13,10 @@ namespace CS_TSP3
             Console.WriteLine("Hello hoge");
         }
     }
+
+    class vec_cell
+    {
+        vec_cell next;
+        int val;
+    }
 }
